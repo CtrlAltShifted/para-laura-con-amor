@@ -1,7 +1,9 @@
 site_name: "Para Laura"
 nav:
   - Home: index.md
-  - About: about.md
+  - Poemas: poemas.md
+  - Canciones: canciones.md
+  - Peliculas: peliculas.md
 theme:
   name: 'material'
   palette:
