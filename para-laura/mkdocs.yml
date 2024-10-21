@@ -1,9 +1,10 @@
-site_name: "Para Laura"
+site_name: "Prueba a navegar por estos sitios :3"
 nav:
-  - Home: index.md
+  - Principal: index.md
   - Poemas: poemas.md
   - Canciones: canciones.md
   - Peliculas: peliculas.md
+  - Secreto: secreto.md
 theme:
   name: 'material'
   palette:
