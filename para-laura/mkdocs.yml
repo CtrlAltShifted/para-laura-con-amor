@@ -2,14 +2,20 @@ site_name: "Una página de amor"
 nav:
   - Principal: index.md
   - Peliculas y series: peliculas.md
+  - Citas: citas.md
   - Canciones: canciones.md
   - Poemas: poemas.md
   - Juegos: juegos.md
   - Recuerdos: recuerdos.md
+  - Test: test.md
   - Secreto: secreto.md
 theme:
   name: 'material'
+  logo: https://i.pinimg.com/originals/92/49/64/9249643b53225bbc6af059aec98d4045.png
+  search:
+    enable: false  # Desactiva la barra de búsqueda
   palette:
-    primary: 'pink'
-    accent: 'red'
-
+    primary: 'green'
+    accent: 'purple'  # Corrige el error tipográfico
+extra_css:
+  - custom.css  # Añade tu archivo CSS aquí

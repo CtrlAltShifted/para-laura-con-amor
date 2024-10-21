@@ -6,7 +6,7 @@
 </div>
 
 <div id="passwordContainer">
-    <p> HOLA LAURA, para acceder al apartado secreto uuuhuhh ejejje, tendrás que buscar pistas por toda la página jeejje y así podrás descrifrar la clave jejejej buen suerte <p>
+    <p> HOLA LAURA, para acceder al apartado secreto uuuhuhh ejejje, tendrás que realizar el test de la página, ¿serás capaz de acertar todas las preguntas y conseguir la clave secreta? Ya veremos muejjejeje <p>
     <label for="password">Introduce la clave para acceder al contenido secreto:</label>
     <input type="password" id="password" />
     <button onclick="togglePasswordVisibility()">👁️</button>
@@ -22,7 +22,7 @@
         const passwordContainer = document.getElementById('passwordContainer');
         
         // Cambia "tu_clave_secreta" por la clave que deseas usar
-        if (password === "caca en mis pantalones") {
+        if (password === "juannoriytyler") {
             secretContent.style.display = 'block'; // Mostrar contenido secreto
             message.innerText = ''; // Limpiar mensaje
             passwordContainer.style.display = 'none'; // Ocultar el contenedor de la contraseña

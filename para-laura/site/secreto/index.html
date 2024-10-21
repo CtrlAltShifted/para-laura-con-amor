@@ -9,7 +9,7 @@
       
       
       
-        <link rel="prev" href="../peliculas/">
+        <link rel="prev" href="../recuerdos/">
       
       
       
@@ -18,7 +18,7 @@
     
     
       
-        <title>Secreto - Prueba a navegar por estos sitios :3</title>
+        <title>Secreto - Una página de amor</title>
       
     
     
@@ -84,7 +84,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Prueba a navegar por estos sitios :3" class="md-header__button md-logo" aria-label="Prueba a navegar por estos sitios :3" data-md-component="logo">
+    <a href=".." title="Una página de amor" class="md-header__button md-logo" aria-label="Una página de amor" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -98,7 +98,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Prueba a navegar por estos sitios :3
+            Una página de amor
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -179,13 +179,13 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Prueba a navegar por estos sitios :3" class="md-nav__button md-logo" aria-label="Prueba a navegar por estos sitios :3" data-md-component="logo">
+    <a href=".." title="Una página de amor" class="md-nav__button md-logo" aria-label="Una página de amor" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    Prueba a navegar por estos sitios :3
+    Una página de amor
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -217,11 +217,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../poemas/" class="md-nav__link">
+      <a href="../peliculas/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Poemas
+    Peliculas y series
   </span>
   
 
@@ -257,11 +257,51 @@
   
   
     <li class="md-nav__item">
-      <a href="../peliculas/" class="md-nav__link">
+      <a href="../poemas/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Peliculas
+    Poemas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../juegos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Juegos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recuerdos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recuerdos
   </span>
   
 
@@ -339,10 +379,11 @@
     <p>Este es el contenido que solo se puede ver si tienes la clave correcta.</p>
 </div>
 
-<div>
-    <p> Este apartado es secreto, para acceder a el tendras que buscar pistas entre los demás documentos para averiguar la clave jeje <p>
+<div id="passwordContainer">
+    <p> HOLA LAURA, para acceder al apartado secreto uuuhuhh ejejje, tendrás que buscar pistas por toda la página jeejje y así podrás descrifrar la clave jejejej buen suerte <p>
     <label for="password">Introduce la clave para acceder al contenido secreto:</label>
     <input type="password" id="password" />
+    <button onclick="togglePasswordVisibility()">👁️</button>
     <button onclick="checkPassword()">Acceder</button>
     <p id="message" style="color: red;"></p>
 </div>
@@ -352,15 +393,23 @@
         const password = document.getElementById('password').value;
         const secretContent = document.getElementById('secretContent');
         const message = document.getElementById('message');
+        const passwordContainer = document.getElementById('passwordContainer');
 
         // Cambia "tu_clave_secreta" por la clave que deseas usar
-        if (password === "caca") {
-            secretContent.style.display = 'block';
-            message.innerText = '';
+        if (password === "caca en mis pantalones") {
+            secretContent.style.display = 'block'; // Mostrar contenido secreto
+            message.innerText = ''; // Limpiar mensaje
+            passwordContainer.style.display = 'none'; // Ocultar el contenedor de la contraseña
         } else {
             message.innerText = 'Clave incorrecta. Inténtalo de nuevo.';
-            secretContent.style.display = 'none';
+            secretContent.style.display = 'none'; // Ocultar contenido secreto
         }
+    }
+
+    function togglePasswordVisibility() {
+        const passwordInput = document.getElementById('password');
+        const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+        passwordInput.setAttribute('type', type);
     }
 </script>
 
