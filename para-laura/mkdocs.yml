@@ -1,9 +1,11 @@
-site_name: "Prueba a navegar por estos sitios :3"
+site_name: "Una página de amor"
 nav:
   - Principal: index.md
-  - Poemas: poemas.md
+  - Peliculas y series: peliculas.md
   - Canciones: canciones.md
-  - Peliculas: peliculas.md
+  - Poemas: poemas.md
+  - Juegos: juegos.md
+  - Recuerdos: recuerdos.md
   - Secreto: secreto.md
 theme:
   name: 'material'

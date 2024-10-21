@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="../poemas/">
+        <link rel="prev" href="../peliculas/">
       
-      
-        <link rel="next" href="../peliculas/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +18,7 @@
     
     
       
-        <title>Canciones - Prueba a navegar por estos sitios :3</title>
+        <title>Secreto - Prueba a navegar por estos sitios :3</title>
       
     
     
@@ -70,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#canciones" class="md-skip">
+        <a href="#seccion-secreta" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Canciones
+              Secreto
             
           </span>
         </div>
@@ -236,19 +234,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../canciones/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -257,7 +246,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -286,10 +274,19 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../secreto/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -298,6 +295,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -335,8 +333,36 @@
                   
 
 
-<h1 id="canciones">Canciones</h1>
-<p>Aquí puedes hablar sobre tus canciones favoritas o incluir enlaces a listas de reproducción.</p>
+<h1 id="seccion-secreta">Sección Secreta</h1>
+<div id="secretContent" style="display: none;">
+    <h2>Contenido Secreto</h2>
+    <p>Este es el contenido que solo se puede ver si tienes la clave correcta.</p>
+</div>
+
+<div>
+    <p> Este apartado es secreto, para acceder a el tendras que buscar pistas entre los demás documentos para averiguar la clave jeje <p>
+    <label for="password">Introduce la clave para acceder al contenido secreto:</label>
+    <input type="password" id="password" />
+    <button onclick="checkPassword()">Acceder</button>
+    <p id="message" style="color: red;"></p>
+</div>
+
+<script>
+    function checkPassword() {
+        const password = document.getElementById('password').value;
+        const secretContent = document.getElementById('secretContent');
+        const message = document.getElementById('message');
+
+        // Cambia "tu_clave_secreta" por la clave que deseas usar
+        if (password === "caca") {
+            secretContent.style.display = 'block';
+            message.innerText = '';
+        } else {
+            message.innerText = 'Clave incorrecta. Inténtalo de nuevo.';
+            secretContent.style.display = 'none';
+        }
+    }
+</script>
 
 
 
