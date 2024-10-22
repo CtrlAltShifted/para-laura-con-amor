@@ -26,32 +26,53 @@ el latido de mi corazón,
 la razón por la que sonrío  
 y la luz que guía mi camino.  
 
-## A Laura - Tu novio bonito y precioso
+## Todo lo tuyo, Laura - Tu novio bonito y precioso
 
-En la noche, cuando el silencio se asienta,  
-mi corazón susurra tu nombre, Laura,  
-como un eco suave que danza en el viento,  
-pintando en la oscuridad tu luz que me enamora.  
+Tu nombre, Laura,  
+más bello que las flores al alba,  
+en sus letras se esconde un cielo  
+donde el viento susurra calma.  
 
-Tu pelo negro, como la noche estrellada,  
-cascadas de sombras que acarician el aire,  
-y tus ojos, dos faros de dulzura infinita,  
-refugios de sueños que nunca son tarde.  
+Son las sílabas, un latido suave  
+que al nombrarlas acarician el alma.  
 
-Cada mirada tuya es un regalo divino,  
-un susurro de amor que me envuelve en su canto,  
-en el brillo de tus ojos oscuros y profundos,  
-encuentro mi hogar, el calor de tu encanto.  
+Y cada letra que lleva,  
+atardeceres de primavera,  
+que colorean el cielo entero,  
+con tu luz ligera.  
 
-Eres el sol que ilumina mi amanecer,  
-la razón de mis risas, el motivo de mi ser.  
-Cada instante contigo es un verso eterno,  
-un poema que florece en el jardín de mi pecho.  
+Esos ojos negros,  
+más oscuros que la noche cerrada.  
+Brillan más que la propia luna,  
+pues en ellos sueños e ilusiones se guardan.  
 
-Así, en cada día que juntos compartimos,  
-mi amor por ti, Laura, solo va creciendo,  
-como un río que fluye, sin fin ni destino,  
-en este viaje hermoso, contigo siempre quiero ir.  
+Las curvas de tus labios,  
+hacen posibles imposibles,  
+pues cuando susurras mi nombre,  
+el tiempo se detiene en tu belleza.  
+
+No es solo tu ojos y tus labios,  
+lo que te hacen inconfundible,  
+pues todo lo tuyo,  
+te hace irresistible.  
+
+Dificil no tentar,  
+cuando te tengo aquí delante,  
+con el roce de tu piel  
+y la melodía de tu voz,  
+conviertes la pasión en una danza,  
+y en un fuego que nunca apaga.  
+
+Eres único en mi vida,  
+de tu corazón esclavo soy,  
+pues de ti ando enamorado,  
+y prometo que a tu lado,  
+siempre ire yo.  
+
+Laura, en tu nombre vive el misterio,  
+la dulzura del día nuevo,  
+y el susurro de las margaritas  
+que al mirarte, susurran "te quiero"  
 
 <div style="text-align: center;">
     <img src="https://blog.vicensvives.com/wp-content/uploads/2019/02/GATO10.gif" alt="Gato lee">
